@@ -7,18 +7,27 @@ Give the class a static from method that takes an iterable object as argument an
 */
 
 class Group {
-    // Your code here.
-  }
-  
+  // from(array) {
+  //   let group = [];
+  //   for (i = 0; i < array.length; i++) {
+  //     group.append(array[i]);
+  //   }
+  // }
+  // has(number) {
 
-  // Tests:
-  let group = Group.from([10, 20]);
-  console.log(group.has(10));
-  // → true
-  console.log(group.has(30));
-  // → false
-  group.add(10);
-  group.delete(10);
-  console.log(group.has(10));
-  // → false
+  // }
+  
+}
+
+
+// Tests:
+let group = Group.from([10, 20]);
+console.log(group.has(10));
+// → true
+console.log(group.has(30));
+// → false
+group.add(10);
+group.delete(10);
+console.log(group.has(10));
+// → false
 
